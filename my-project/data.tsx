@@ -14,6 +14,7 @@ import {
   Book,
   Rocket,
   Speech,
+  Github,
 } from "lucide-react";
 
 export const socialNetworks = [
@@ -34,14 +35,10 @@ export const socialNetworks = [
   },
   {
     id: 4,
-    logo: <Rss size={30} strokeWidth={1} />,
+    logo: <Github size={30} strokeWidth={1} />,
     src: "#!",
   },
-  {
-    id: 5,
-    logo: <Twitch size={30} strokeWidth={1} />,
-    src: "#!",
-  },
+ 
 ];
 
 export const itemsNavbar = [

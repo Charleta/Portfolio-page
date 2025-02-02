@@ -1,4 +1,6 @@
-"use client";
+"use client"; //usamos use client para que el codigo que se ejecuta
+//sea del lado del cliente y no del lado del servidor
+
 import CoverParticles  from "./Components/cover-particles";
 import TransitionPage from "./Components/transition-page";
 import Introduction from "./Components/introduction";
