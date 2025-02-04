@@ -1,15 +1,27 @@
-import { div } from "framer-motion/client";
+
+import Avatar from "@/app/Components/avatar";
+import ContainerPage from "@/app/Components/container";
+import TransitionPage from "@/app/Components/transition-page";
+
 
 const AboutMe = ( ) => {
 
-    return ( 
+    return (
+      <>
 
-        <div>
-            <p>HOLIS</p>
-        </div>
+        <TransitionPage />
 
 
-    )
+        <ContainerPage>
+            
+            <Avatar/>
+            
+            <h1>Hola</h1>
+
+        </ContainerPage>
+        
+      </>
+    );
 
 
 
