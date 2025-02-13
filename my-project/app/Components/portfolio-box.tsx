@@ -29,7 +29,7 @@ const PortfolioBox = (props : PortfolioBoxProps) => {
 
         <div className="flex mt-5 gap-5 justify-between">
           <Link
-            href={urlGithub}
+            href={urlDemo}
             target="blank"
             rel="noopener noreferrer"
             className="p-2 transiton duration-150 rounded-lg
