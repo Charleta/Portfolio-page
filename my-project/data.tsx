@@ -127,7 +127,7 @@ export const dataPortfolio = [
   {
     id: 1,
     title: "Portfolio Personal",
-    image: "/image-1.jpg",
+    image: "/project-1.png",
     urlGithub: "https://github.com/Charleta/Portfolio-page",
     urlDemo: "https://portfolio-page-uzcc.vercel.app/",
   },
