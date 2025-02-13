@@ -6,11 +6,11 @@
 
 html , body {
   color: #fff;
-  background: #1f1934;
+  background: #0F172A;
 }
 
 main {
-  background: #393a47;
-  height: 100vh;
-  height: 100dvh;
+  background: linear-gradient(to bottom, #0F172A, #1E293B 70%, #2C3E50);
+  min-height: 100vh;
+  min-height: 100dvh;
 }

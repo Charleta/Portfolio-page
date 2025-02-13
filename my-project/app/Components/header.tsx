@@ -25,7 +25,7 @@ return (
                     </h1>
                     
               </Link>
-                        <div className="flex justify-center items-center gap-7">
+                        <div className="flex justify-center items-center gap-7 ">
                             {socialNetworks.map(({src, id , logo})=> (
                                 <Link key={id} 
                                 href={src}

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import {
   BookText,
   CodeSquare,
@@ -5,9 +7,6 @@ import {
   UserRound,
   Linkedin,
   Twitter,
-  Rss,
-  Twitch,
-  Youtube,
   Crop,
   Pencil,
   Computer,
@@ -15,30 +14,50 @@ import {
   Rocket,
   Speech,
   Github,
+  Mail,
 } from "lucide-react";
 
 export const socialNetworks = [
   {
     id: 1,
-    logo: <Youtube size={30} strokeWidth={1} />,
-    src: "#!",
+    logo: (
+      <Link
+        href="https://www.linkedin.com/in/carlos-ortega-oca%C3%B1a"
+        target="_blank"
+        rel="noopener noreferrer" // Esto es una medida de seguridad para evitar que se abran ventanas emergentes y se pueda hacer phishing
+      >
+        <Linkedin size={30} strokeWidth={1} />
+      </Link>
+    ),
+    src: "https://www.linkedin.com/in/carlos-ortega-oca%C3%B1a/",
   },
   {
     id: 2,
-    logo: <Linkedin size={30} strokeWidth={1} />,
-    src: "#!",
+    logo: (
+      <Link
+        href="https://x.com/carlosortega_ok"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Twitter size={30} strokeWidth={1} />
+      </Link>
+    ),
+
+    src: "https://x.com/carlosortega_ok",
   },
   {
     id: 3,
-    logo: <Twitter size={30} strokeWidth={1} />,
-    src: "#!",
+    logo: (
+      <Link
+        href="https://github.com/Charleta"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Github size={30} strokeWidth={1} />
+      </Link>
+    ),
+    src: "https://github.com/Charleta",
   },
-  {
-    id: 4,
-    logo: <Github size={30} strokeWidth={1} />,
-    src: "#!",
-  },
- 
 ];
 
 export const itemsNavbar = [
@@ -58,19 +77,13 @@ export const itemsNavbar = [
     id: 3,
     title: "Book",
     icon: <BookText size={25} color="#fff" strokeWidth={1} />,
-    link: "/services",
-  },
-  {
-    id: 4,
-    title: "Target",
-    icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
     link: "/portfolio",
   },
   {
-    id: 5,
-    title: "Home",
-    icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-    link: "/testimonials",
+    id: 4,
+    title: "Mail",
+    icon: <Mail size={25} color="#fff" strokeWidth={1} />,
+    link: "/contact",
   },
 ];
 
