@@ -83,7 +83,7 @@ export const itemsNavbar = [
     id: 4,
     title: "Mail",
     icon: <Mail size={25} color="#fff" strokeWidth={1} />,
-    link: "/contact",
+    link: "mailto:sr.carlosortega@gmail.com",
   },
 ];
 

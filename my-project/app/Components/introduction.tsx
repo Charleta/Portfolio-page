@@ -43,13 +43,13 @@ const Introduction = () =>{
 
             <div className="flex item-center justify-center gap-3 md:justify-start md:gap-10">
               <Link
-                href="/projects"
+                href="/portfolio"
                 className="px-3 py-2 transition-all border-2 cursor-pointer w-fit rounded-xl hover:shadow-md hover:shadow-white/50"
               >
                 Ver proyectos
               </Link>
               <Link
-                href="/contact"
+                href="mailto:sr.carlosortega@gmail.com"
                 className="px-3  py-2 transition-all border-2 cursor-pointer w-fit rounded-xl hover:shadow-md hover:shadow-white/50"
               >
                 Contactarme
