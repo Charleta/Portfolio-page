@@ -10,10 +10,10 @@ const Introduction = () =>{
       <div className="z-20 w-full bg-darkBg/60">
         <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
           <Image
-            src="/home-4.png"
+            src="/yo-ghibli.png"
             priority
-            width="800"
-            height="800"
+            fill
+            className="w-52 h-52 md:w-80 md:h-80"
             alt="profile pic"
           />
 
@@ -35,7 +35,7 @@ const Introduction = () =>{
                 className="font-bold text-orange-500 block"
               />
             </h1>
-            <p className='mx-auto mb-2 text-xl md:mx-0 md:mb-8'>
+            <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8">
               Soy un desarrollador de software con experiencia en la creación de
               aplicaciones web y móviles. Me apasiona la tecnología y me encanta
               aprender cosas nuevas.
