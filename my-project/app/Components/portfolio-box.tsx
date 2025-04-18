@@ -17,7 +17,7 @@ const PortfolioBox = (props : PortfolioBoxProps) => {
     const { data } = props;
     const {  title, image, urlGithub, urlDemo } = data;
     return (
-      <div className="p-4 border border-teal-50 rounded-xl">
+      <div className="p-4 border border-teal-50 rounded-xl md:w-72 md:mt-10">
         <h3 className="text-xl font-bold mb-4">{title}</h3>
         <Image
           src={image}
