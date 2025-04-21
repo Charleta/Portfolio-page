@@ -1,15 +1,21 @@
 
 
 import type { Metadata } from "next"; // sirve para definir el tipo de dato de la metadata, como el titulo y la descripcion
-import { Urbanist } from "next/font/google";
+import { Urbanist, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import NavBar from "./Components/navBar";
 import Header from "./Components/header";
 import CoverParticles from "./Components/cover-particles";
 
-const urbanist = Urbanist({ // aca tenemos una variable que se le asigna una funcion, que es la funcion Urbanist, esta funcion recibe un objeto con las propiedades que se le quieren asignar a la fuente
+const SpaceGrotesk = Space_Grotesk({
+  // aca tenemos una variable que se le asigna una funcion, que es la funcion Urbanist, esta funcion recibe un objeto con las propiedades que se le quieren asignar a la fuente
   subsets: ["latin"],
 });
+const urbanist = Urbanist({
+  // aca tenemos una variable que se le asigna una funcion, que es la funcion Urbanist, esta funcion recibe un objeto con las propiedades que se le quieren asignar a la fuente
+  subsets: ["latin"],
+});
+
 
 
 export const metadata: Metadata = {
@@ -20,11 +26,11 @@ export const metadata: Metadata = {
 export default function RootLayout({children}: Readonly<{children: React.ReactNode;}>) {
   return (
     <html lang="es">
-      <body className={`${urbanist}`}>
-        <CoverParticles/>
-        <Header/>
-        <NavBar/>
-        
+      <body className={`${SpaceGrotesk.className}`}>
+        <CoverParticles />
+        <Header />
+        <NavBar />
+
         {children}
       </body>
     </html>

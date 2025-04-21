@@ -22,44 +22,43 @@ const Introduction = () =>{
           </div>
 
           <div className="flex flex-col items-center justify-start  max-w-md p-2 md:items-start md:justify-center ">
-              <h1 className="mb-5 text-2xl leanding-tight text-center md:text-left md:text-4xl md:mb-10">
-                Si puedes pensarlo,
-                <TypeAnimation
-                  sequence={[
-                    "lo podemos hacer.",
-                    1000,
-                    "lo podemos desarrollar.",
-                    1000,
-                    "lo podemos mejorar.",
-                    1000,
-                  ]}
-                  wrapper="span"
-                  speed={80}
-                  repeat={Infinity}
-                  className="font-bold text-orange-500 block"
-                />
-              </h1>
-              <p className="mx-auto text-center mb-2 text-xl  md:mb-8 md:text-left ">
-                Soy un desarrollador de software con experiencia en la creación
-                de aplicaciones web y móviles. Me apasiona la tecnología y me
-                encanta aprender cosas nuevas.
-              </p>
+            <h1 className="mb-5 text-2xl leanding-tight text-center md:text-left md:text-4xl md:mb-10">
+              Si puedes pensarlo,
+              <TypeAnimation
+                sequence={[
+                  "lo podemos hacer.",
+                  1000,
+                  "lo podemos desarrollar.",
+                  1000,
+                  "lo podemos mejorar.",
+                  1000,
+                ]}
+                wrapper="span"
+                speed={80}
+                repeat={Infinity}
+                className="font-bold text-[#A1EF76] block"
+              />
+            </h1>
+            <p className="mx-auto text-center mb-2 text-xl  md:mb-8 md:text-left ">
+              Soy un desarrollador de software con experiencia en la creación de
+              aplicaciones web y móviles. Me apasiona la tecnología y me encanta
+              aprender cosas nuevas.
+            </p>
 
-              <div className="flex items-center mt-2 justify-center gap-3 md:justify-between md:gap-10">
-                <Link
-                  href="/portfolio"
-                  className="px-3 py-2 transition-all border-2 cursor-pointer w-fit rounded-xl hover:shadow-md hover:shadow-white/50"
-                >
-                  Ver proyectos
-                </Link>
-                <Link
-                  href="mailto:sr.carlosortega@gmail.com"
-                  className="px-3  py-2 transition-all border-2 cursor-pointer w-fit rounded-xl hover:shadow-md hover:shadow-white/50"
-                >
-                  Contactarme
-                </Link>
-              </div>
-            
+            <div className="flex items-center mt-2 justify-center gap-3 md:justify-between md:gap-10">
+              <Link
+                href="/portfolio"
+                className="px-3 py-2 transition-all border-2 cursor-pointer w-fit rounded-xl hover:shadow-md hover:shadow-white/50"
+              >
+                Ver proyectos
+              </Link>
+              <Link
+                href="mailto:sr.carlosortega@gmail.com"
+                className="px-3  py-2 transition-all border-2 cursor-pointer w-fit rounded-xl hover:shadow-md hover:shadow-white/50"
+              >
+                Contactarme
+              </Link>
+            </div>
           </div>
         </div>
       </div>

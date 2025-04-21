@@ -5,12 +5,12 @@
 
 
 html , body {
-  color: #fff;
-  background: #0F172A;
+  color: #ebebeb;
+  background: #0D1B2A;
 }
 
 main {
-  background: linear-gradient(to bottom, #0F172A, #1E293B 70%, #2C3E50);
+  background: linear-gradient(to bottom, #0D1B2A, #1B2C3A 70%, #264653);
   min-height: 100vh;
   min-height: 100dvh;
 }

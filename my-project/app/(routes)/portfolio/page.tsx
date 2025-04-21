@@ -15,12 +15,12 @@ const PortfolioPage = () => {
              md:text-5xl md:mt-10"
           >
             Ultimos trabajos{" "}
-            <span className="font-bold text-orange-500">realizados</span>
+            <span className="font-bold text-[#A1EF76]">realizados</span>
           </h1>
 
           <div className="relative z-10 grid max-w-5xl gap-6 mx-auto mt-4 sm:grid-cols-2 md:grid-cols-4">
             {dataPortfolio.map((data) => (
-              <PortfolioBox key={data.id} data={data}/>
+              <PortfolioBox key={data.id} data={data} />
             ))}
           </div>
         </div>

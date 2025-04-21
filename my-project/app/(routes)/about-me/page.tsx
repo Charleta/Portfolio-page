@@ -21,7 +21,7 @@ const AboutMe = ( ) => {
              md:text-5xl md:mt-10"
           >
             {" "}
-            Hablemos <span className="font-bold text-orange-500">Sobre mi</span>
+            Hablemos <span className="font-bold text-[#A1EF76]">Sobre mi</span>
           </h1>
           <div className="flex flex-col md:flex-row items-center md:items-start justify-center md:gap-10 mt-10">
             <div className="relative w-64 h-64 rounded-2xl overflow-hidden shadow-md shadow-white/50">
