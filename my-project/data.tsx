@@ -1,4 +1,78 @@
 import Link from "next/link";
+import { SiJavascript,
+  SiTypescript,
+  SiReact,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiHtml5,
+  SiCss3,
+  SiSass,
+  SiFigma,
+  SiVercel,
+  SiGithub,
+  SiPostgresql,
+  SiExpress,
+  SiMongodb,
+  SiFirebase,
+  SiSocketdotio,
+ } from "react-icons/si";
+
+export const myStage = [
+  {
+    id: 1,
+    title: "Javascript",
+    icon: <SiJavascript />,
+    description:
+      "JavaScript es un lenguaje de programación versátil y ampliamente utilizado para el desarrollo web, tanto en el lado del cliente como en el servidor.",
+  },
+
+  {
+    id: 2,
+    title: "React",
+    icon: <SiReact />,
+    description:
+      "React es una biblioteca de JavaScript para construir interfaces de usuario interactivas y reutilizables, facilitando el desarrollo de aplicaciones web modernas.",
+  },
+
+  {
+    id: 3,
+    title: "Next.js",
+    icon: <SiNextdotjs />,
+    description:
+      "Next.js es un marco de trabajo para React que permite la creación de aplicaciones web optimizadas y escalables, con características como el renderizado del lado del servidor y la generación de sitios estáticos.",
+  },
+  {
+    id: 4,
+    title: "Tailwind CSS",
+    icon: <SiTailwindcss />,
+    description:
+      "Tailwind CSS es un marco de diseño de CSS que permite crear interfaces personalizadas y responsivas utilizando clases utilitarias predefinidas.",
+  },
+  {
+    id: 5,
+    title: "HTML5",
+    icon: <SiHtml5 />,
+    description:
+      "HTML5 es la última versión del lenguaje de marcado HTML, que proporciona una estructura semántica y nuevas características para el desarrollo web moderno.",
+  },
+  {
+    id: 6,
+    title: "CSS3",
+    icon: <SiCss3 />,
+    description:
+      "CSS3 es la última versión de CSS, que permite aplicar estilos avanzados y efectos visuales a las páginas web, mejorando la presentación y la experiencia del usuario.",
+  },
+
+  {
+    id: 10,
+    title: "Github",
+    icon: <SiGithub />,
+    description:
+      "GitHub es una plataforma de control de versiones basada en Git que permite a los desarrolladores colaborar en proyectos, gestionar código fuente y realizar seguimiento de cambios."
+  }
+
+];
+
 
 import {
   BookText,
@@ -15,6 +89,7 @@ import {
   Speech,
   Github,
   Mail,
+  
 } from "lucide-react";
 
 export const socialNetworks = [

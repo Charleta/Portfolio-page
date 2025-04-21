@@ -4,6 +4,8 @@
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import Link from 'next/link';
+import { myStage } from '@/data';
+
 
 const Introduction = () =>{
     return (
@@ -44,6 +46,20 @@ const Introduction = () =>{
               aplicaciones web y móviles. Me apasiona la tecnología y me encanta
               aprender cosas nuevas.
             </p>
+
+            <div className="grid grid-cols-4 gap-4 ">
+              {myStage.map(({ id, title, icon }) => (
+                <div
+                  key={id}
+                  className="w-18 h-18 flex items-center justify-center p-2 transition-all duration-300 ease-in-out bg-white/10 rounded-xl hover:bg-[#A1EF76] hover:shadow-md hover:text-[#0D1B2A] hover:font-bold"
+                >
+                  <div className="flex flex-col items-center justify-center">
+                    <span> {icon} </span>
+                    <p>{title}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
 
             <div className="flex items-center mt-2 justify-center gap-3 md:justify-between md:gap-10">
               <Link

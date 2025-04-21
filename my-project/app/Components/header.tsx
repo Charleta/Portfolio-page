@@ -27,7 +27,8 @@ return (
               key={id}
               href={src}
               target="_blank"
-              className="transition-all duration-300 hover:text-orange-400"
+              className="transition-all duration-300 hover:text-[#A1EF76]
+              hover:font-bold hover:scale-150"
             >
               {logo}
             </Link>
