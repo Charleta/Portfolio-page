@@ -42,7 +42,7 @@ const PortfolioBox = (props : PortfolioBoxProps) => {
             target="blank"
             rel="noopener noreferrer"
             className="p-2 transiton duration-150 rounded-lg
-            bg-orange-500 text-white hover:bg-gray-700"
+            bg-[#A1EF76] text-[#0D1B2A]  hover:bg-[#679e4a]"
           >
             Github
           </Link>
