@@ -12,7 +12,7 @@ const Introduction = () =>{
       <div className="z-20 w-full bg-darkBg/60">
         <div className="z-20 grid  md:grid-cols-2 h-full  md:m-auto sm:grid-cols-1 ">
           <div className="flex items-end justify-center mt-2  md:justify-end md:items-center">
-            <div className="relative w-80 h-80 md:w-[450px] md:h-[650px] ">
+            <div className="relative w-72 h-72  md:w-[450px] md:h-[650px] ">
               <Image
                 src="/yo-ghibli.png"
                 priority
@@ -41,7 +41,7 @@ const Introduction = () =>{
                 className="font-bold text-[#A1EF76] block"
               />
             </h1>
-            <p className="mx-auto text-center mb-2 text-xl  md:mb-8 md:text-left ">
+            <p className="mx-auto text-md text-center mb-2 mb:text-xl  md:mb-8 md:text-left ">
               ¡Hola! Soy desarrollador web con experiencia en crear soluciones
               digitales eficientes. Trabajo con tecnologías modernas de frontend
               y backend, enfocado en resolver problemas reales de forma
@@ -88,7 +88,7 @@ const Introduction = () =>{
               </div>
             </section>
 
-            <div className="flex items-center mt-24 justify-center gap-3 md:justify-between md:gap-10">
+            <div className="flex items-center mt-12 md:mt-24 justify-center gap-3 md:justify-between md:gap-10">
               <Link
                 href="/portfolio"
                 className="px-3 text-[#0D1B2A] font-bold py-2 bg-[#A1EF76] transition-all border-2 border-[#679e4a] cursor-pointer w-fit rounded-xl hover:shadow-md hover:bg-[#679e4a] "
