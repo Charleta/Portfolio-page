@@ -13,7 +13,7 @@ const Introduction = () =>{
       <div className="z-20 w-full bg-darkBg/60">
         <div className="z-20 grid  md:grid-cols-2 h-full  md:m-auto sm:grid-cols-1 ">
           <div className="flex justify-center mt-3  md:justify-end md:items-center">
-            <div className="relative aspect-[3/4] md:w-[450px] md:h-[650px] ">
+            <div className="relative w-52 h-52 md:w-[450px] md:h-[650px] ">
               <Image
                 src="/yo-ghibli.png"
                 priority
