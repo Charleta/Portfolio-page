@@ -15,62 +15,71 @@ import { SiJavascript,
   SiMongodb,
   SiFirebase,
   SiSocketdotio,
+  SiMysql
  } from "react-icons/si";
 
-export const myStage = [
+export const myStageFront = [
+  
   {
     id: 1,
-    title: "Javascript",
-    icon: <SiJavascript />,
-    description:
-      "JavaScript es un lenguaje de programación versátil y ampliamente utilizado para el desarrollo web, tanto en el lado del cliente como en el servidor.",
-  },
-
-  {
-    id: 2,
     title: "React",
     icon: <SiReact />,
     description:
       "React es una biblioteca de JavaScript para construir interfaces de usuario interactivas y reutilizables, facilitando el desarrollo de aplicaciones web modernas.",
   },
+  {
+    Id:2,
+    title: "Next.js",
+    icon: <SiNextdotjs />,
+  },
 
   {
     id: 3,
-    title: "Next.js",
-    icon: <SiNextdotjs />,
-    description:
-      "Next.js es un marco de trabajo para React que permite la creación de aplicaciones web optimizadas y escalables, con características como el renderizado del lado del servidor y la generación de sitios estáticos.",
-  },
-  {
-    id: 4,
-    title: "Tailwind CSS",
+    title: "Tailwind",
     icon: <SiTailwindcss />,
     description:
       "Tailwind CSS es un marco de diseño de CSS que permite crear interfaces personalizadas y responsivas utilizando clases utilitarias predefinidas.",
   },
+  // {
+  //   id: 4,
+  //   title: "HTML5",
+  //   icon: <SiHtml5 />,
+  //   description:
+  //     "HTML5 es la última versión del lenguaje de marcado HTML, que proporciona una estructura semántica y nuevas características para el desarrollo web moderno.",
+  // },
+  // {
+  //   id: 5,
+  //   title: "CSS3",
+  //   icon: <SiCss3 />,
+  //   description:
+  //     "CSS3 es la última versión de CSS, que permite aplicar estilos avanzados y efectos visuales a las páginas web, mejorando la presentación y la experiencia del usuario.",
+  // },
+
+
+];
+
+export const myStageBack = [
   {
-    id: 5,
-    title: "HTML5",
-    icon: <SiHtml5 />,
-    description:
-      "HTML5 es la última versión del lenguaje de marcado HTML, que proporciona una estructura semántica y nuevas características para el desarrollo web moderno.",
-  },
-  {
-    id: 6,
-    title: "CSS3",
-    icon: <SiCss3 />,
-    description:
-      "CSS3 es la última versión de CSS, que permite aplicar estilos avanzados y efectos visuales a las páginas web, mejorando la presentación y la experiencia del usuario.",
+    Id: 1,
+    title: "Node.js",
+    icon: <SiMongodb />,
   },
 
   {
-    id: 10,
-    title: "Github",
-    icon: <SiGithub />,
-    description:
-      "GitHub es una plataforma de control de versiones basada en Git que permite a los desarrolladores colaborar en proyectos, gestionar código fuente y realizar seguimiento de cambios."
-  }
-
+    id: 2,
+    title: "SQL",
+    icon: <SiMysql />,
+  },
+  {
+    id: 3,
+    title: "MongoDB",
+    icon: <SiMongodb />,
+  },
+  {
+    id: 4,
+    title: "Firebase",
+    icon: <SiFirebase />,
+  },
 ];
 
 
