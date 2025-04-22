@@ -5,14 +5,15 @@ import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
 import Link from 'next/link';
 import { myStageFront, myStageBack } from "@/data";
+import HeaderIcons from "./header-icons";
 
 
 const Introduction = () =>{
     return (
       <div className="z-20 w-full bg-darkBg/60">
         <div className="z-20 grid  md:grid-cols-2 h-full  md:m-auto sm:grid-cols-1 ">
-          <div className="flex items-end justify-center mt-2  md:justify-end md:items-center">
-            <div className="relative w-72 h-72  md:w-[450px] md:h-[650px] ">
+          <div className="flex justify-center mt-3  md:justify-end md:items-center">
+            <div className="relative aspect-[3/4] md:w-[450px] md:h-[650px] ">
               <Image
                 src="/yo-ghibli.png"
                 priority
@@ -88,7 +89,7 @@ const Introduction = () =>{
               </div>
             </section>
 
-            <div className="flex items-center mt-12 md:mt-24 justify-center gap-3 md:justify-between md:gap-10">
+            <div className="flex items-center mt-12 md:mt-18 justify-center gap-3 md:justify-between md:gap-10">
               <Link
                 href="/portfolio"
                 className="px-3 text-[#0D1B2A] font-bold py-2 bg-[#A1EF76] transition-all border-2 border-[#679e4a] cursor-pointer w-fit rounded-xl hover:shadow-md hover:bg-[#679e4a] "
@@ -101,6 +102,9 @@ const Introduction = () =>{
               >
                 Contactarme
               </Link>
+            </div>
+            <div className="block mt-8 md:hidden">
+              <HeaderIcons />
             </div>
           </div>
         </div>

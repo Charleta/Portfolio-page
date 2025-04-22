@@ -110,7 +110,7 @@ export const socialNetworks = [
         target="_blank"
         rel="noopener noreferrer" // Esto es una medida de seguridad para evitar que se abran ventanas emergentes y se pueda hacer phishing
       >
-        <Linkedin size={30} strokeWidth={1} />
+        <Linkedin size={32} strokeWidth={1} />
       </Link>
     ),
     src: "https://www.linkedin.com/in/carlos-ortega-oca%C3%B1a/",
@@ -123,7 +123,7 @@ export const socialNetworks = [
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Twitter size={30} strokeWidth={1} />
+        <Twitter size={32} strokeWidth={1} />
       </Link>
     ),
 
@@ -137,7 +137,7 @@ export const socialNetworks = [
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Github size={30} strokeWidth={1} />
+        <Github size={32} strokeWidth={1} />
       </Link>
     ),
     src: "https://github.com/Charleta",
@@ -159,7 +159,7 @@ export const itemsNavbar = [
   },
   {
     id: 3,
-    title: "Book",
+    title: "Portfolio",
     icon: <BookText size={25} color="#fff" strokeWidth={1} />,
     link: "/portfolio",
   },

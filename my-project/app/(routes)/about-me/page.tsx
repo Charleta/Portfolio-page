@@ -1,10 +1,10 @@
 "use client";
 
 
-import Avatar from "@/app/Components/avatar";
 import ContainerPage from "@/app/Components/container";
 import TransitionPage from "@/app/Components/transition-page";
 import Image from "next/image";
+import HeaderIcons from "@/app/Components/header-icons";
 
 
 const AboutMe = ( ) => {
@@ -14,10 +14,8 @@ const AboutMe = ( ) => {
         <TransitionPage />
 
         <ContainerPage>
-          <Avatar />
-
           <h1
-            className="text-2xl text-center md:text-left
+            className="text-2xl  text-center md:text-left
              md:text-5xl md:mt-10"
           >
             {" "}
@@ -49,6 +47,10 @@ const AboutMe = ( ) => {
                 campo dinámico.
               </p>
             </div>
+          </div>
+
+          <div className="block  justify-items-center mt-8 md:hidden">
+            <HeaderIcons />
           </div>
         </ContainerPage>
       </>

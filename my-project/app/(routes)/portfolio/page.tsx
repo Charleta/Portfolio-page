@@ -2,6 +2,7 @@ import ContainerPage from "@/app/Components/container";
 import TransitionPage from "@/app/Components/transition-page";
 import PortfolioBox from "@/app/Components/portfolio-box";
 import { dataPortfolio } from "@/data";
+import HeaderIcons from "@/app/Components/header-icons";
 
 const PortfolioPage = () => {
 
@@ -23,6 +24,10 @@ const PortfolioPage = () => {
               <PortfolioBox key={data.id} data={data} />
             ))}
           </div>
+        </div>
+
+        <div className="block  justify-items-center mt-8 md:hidden">
+          <HeaderIcons />
         </div>
       </ContainerPage>
     );
