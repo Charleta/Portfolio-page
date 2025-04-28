@@ -16,7 +16,7 @@ const AboutMe = ( ) => {
         <ContainerPage>
           <h1
             className="text-2xl  text-center md:text-left
-             md:text-5xl md:mt-10"
+             md:text-5xl md:mt-32"
           >
             {" "}
             Hablemos <span className="font-bold text-[#A1EF76]">Sobre mi</span>
@@ -27,6 +27,7 @@ const AboutMe = ( ) => {
                 src="/perfil-3.jpg"
                 alt="profile pic"
                 fill
+                sizes="(max-width: 768px) 100vw, 300px"
                 className="object-cover"
                 priority
               />

@@ -13,7 +13,7 @@ const PortfolioPage = () => {
         <div className="flex flex-col justify-center h-full">
           <h1
             className="text-2xl landig-tight text-center md:text-left
-             md:text-5xl md:mt-10"
+             md:text-5xl md:mt-20"
           >
             Ultimos trabajos{" "}
             <span className="font-bold text-[#A1EF76]">realizados</span>
