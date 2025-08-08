@@ -215,5 +215,12 @@ export const dataPortfolio = [
     urlGithub: "https://github.com/Charleta/Portfolio-page",
     urlDemo: "https://portfolio-page-uzcc.vercel.app/",
   },
+  {
+    id: 2,
+    title: "App-Mascotas",
+    image: "/project-2.png",
+    urlGithub: "https://github.com/Charleta/SniffNear-app",
+    urlDemo: "https://sniff-near-app.vercel.app/",
+  },
 ];
 

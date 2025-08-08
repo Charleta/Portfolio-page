@@ -21,7 +21,7 @@ const AboutMe = ( ) => {
             {" "}
             Hablemos <span className="font-bold text-[#A1EF76]">Sobre mi</span>
           </h1>
-          <div className="flex flex-col md:flex-row items-center md:items-start justify-center md:gap-10 mt-10">
+          <div className="flex flex-col md:flex-row items-center md:items-center justify-center md:gap-10 mt-10">
             <div className="relative w-64 h-64 rounded-2xl overflow-hidden shadow-md shadow-white/50">
               <Image
                 src="/perfil-3.jpg"
