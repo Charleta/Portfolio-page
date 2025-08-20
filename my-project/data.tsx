@@ -188,5 +188,12 @@ export const dataPortfolio = [
     urlGithub: "https://github.com/Charleta/SniffNear-app",
     urlDemo: "https://sniff-near-app.vercel.app/",
   },
+  {
+    id: 2,
+    title: "LinkShort",
+    image: "/project-3.png",
+    urlGithub: "https://github.com/Charleta/url-shortener",
+    urlDemo: "https://url-shortener-indol-nine.vercel.app/",
+  },
 ];
 
